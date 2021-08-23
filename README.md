@@ -9,8 +9,8 @@
 </p>
 
 <div align="center">
-<img href="https://imgur.com/0v7iz53"/>
-<img href="https://imgur.com/JmJHZ3d"/>
+  <img src="https://i.imgur.com/0v7iz53.png" height="400">
+  <img src="https://i.imgur.com/JmJHZ3d.png" height="400">
 </div>
 
 <br>
