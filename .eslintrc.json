@@ -1,0 +1,32 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:react-native/all",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/react",
+    "prettier/@typescript-eslint",
+    "plugin:react-hooks/recommended",
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true,
+      "impliedStrict": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-native",
+    "eslint-plugin-import-helpers",
+    "sonarjs"
+  ],
+  "settings": {
+    "babel-plugin-root-import": {
+      "rootPathPrefix": "~",
+      "rootPathSuffix": "src"
+    }
+  }
+}
